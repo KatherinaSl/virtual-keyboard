@@ -4,6 +4,7 @@ let keyPressed = {};
 let lang = !localStorage.getItem("lang") ? "en" : localStorage.getItem("lang");
 let isUpperCase = false;
 let isShiftPressed = false;
+let position = 0;
 
 function createElements() {
   const title = document.createElement("h1");
@@ -89,6 +90,10 @@ document.addEventListener("mouseup", () => {
 
 createRow();
 
+input.addEventListener("mouseup", (event) => {
+  position = input.selectionStart;
+});
+
 document.addEventListener("keydown", (event) => {
   let buttonElement = document.querySelector("#" + event.code);
 
@@ -139,15 +144,12 @@ document.addEventListener("keyup", (event) => {
 });
 
 function printSymbol(key) {
-  let selectionStart = input.selectionStart;
-  console.log("selectionStart " + selectionStart);
   input.textContent =
-    input.textContent.substring(0, selectionStart) +
+    input.textContent.substring(0, position) +
     key +
-    input.textContent.substring(selectionStart);
-
-  selectionStart++;
-  input.setSelectionRange(selectionStart, selectionStart);
+    input.textContent.substring(position);
+  position++;
+  input.setSelectionRange(position, position);
 }
 
 function getLocalizedText(button) {
@@ -198,12 +200,16 @@ function handleSpecialButtons(key) {
   }
 
   if (key === "Backspace") {
-    let selectionStart = input.selectionStart;
     input.textContent =
-      input.textContent.substring(0, selectionStart - 1) +
-      input.textContent.substring(selectionStart);
-    selectionStart = selectionStart === 0 ? 0 : selectionStart - 1;
-    input.setSelectionRange(selectionStart, selectionStart);
+      input.textContent.substring(0, position - 1) +
+      input.textContent.substring(position);
+    position--;
+
+    if (position < 0) {
+      position = 0;
+    }
+
+    input.setSelectionRange(position, position);
   }
 
   if (key === "CapsLock") {
@@ -218,11 +224,11 @@ function handleSpecialButtons(key) {
   }
 
   if (key === "Delete") {
-    let selectionStart = input.selectionStart;
     input.textContent =
-      input.textContent.substring(0, selectionStart) +
-      input.textContent.substring(selectionStart + 1);
-    input.setSelectionRange(selectionStart, selectionStart);
+      input.textContent.substring(0, position) +
+      input.textContent.substring(position + 1);
+
+    input.setSelectionRange(position, position);
   }
 }
 

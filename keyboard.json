@@ -1,0 +1,387 @@
+[
+  [
+    {
+      "text": "`",
+      "textRu": "ё",
+      "shiftCase": "~",
+      "grow": 1,
+      "keyCode": "Backquote"
+    },
+    {
+      "text": "1",
+      "shiftCase": "!",
+      "shiftCaseRu": "!",
+      "grow": 1,
+      "keyCode": "Digit1"
+    },
+    {
+      "text": "2",
+      "shiftCase": "@",
+      "shiftCaseRu": "\"",
+      "grow": 1,
+      "keyCode": "Digit2"
+    },
+    {
+      "text": "3",
+      "grow": 1,
+      "keyCode": "Digit3"
+    },
+    {
+      "text": "4",
+      "grow": 1,
+      "keyCode": "Digit4"
+    },
+    {
+      "text": "5",
+      "grow": 1,
+      "keyCode": "Digit5"
+    },
+    {
+      "text": "6",
+      "grow": 1,
+      "keyCode": "Digit6"
+    },
+    {
+      "text": "7",
+      "grow": 1,
+      "keyCode": "Digit7"
+    },
+    {
+      "text": "8",
+      "grow": 1,
+      "keyCode": "Digit8"
+    },
+    {
+      "text": "9",
+      "grow": 1,
+      "keyCode": "Digit9"
+    },
+    {
+      "text": "0",
+      "grow": 1,
+      "keyCode": "Digit0"
+    },
+    {
+      "text": "-",
+      "grow": 1,
+      "keyCode": "Minus"
+    },
+    {
+      "text": "=",
+      "grow": 1,
+      "keyCode": "Equal"
+    },
+    {
+      "text": "Backspace",
+      "grow": 3.5,
+      "blackButton": true,
+      "keyCode": "Backspace"
+    }
+  ],
+  [
+    {
+      "text": "Tab",
+      "grow": 1.25,
+      "blackButton": true,
+      "keyCode": "Tab"
+    },
+    {
+      "text": "q",
+      "textRu": "й",
+      "grow": 1,
+      "keyCode": "KeyQ"
+    },
+    {
+      "text": "w",
+      "textRu": "ц",
+      "grow": 1,
+      "keyCode": "KeyW"
+    },
+    {
+      "text": "e",
+      "textRu": "y",
+      "grow": 1,
+      "keyCode": "KeyE"
+    },
+    {
+      "text": "r",
+      "textRu": "к",
+      "grow": 1,
+      "keyCode": "KeyR"
+    },
+    {
+      "text": "t",
+      "textRu": "e",
+      "grow": 1,
+      "keyCode": "KeyT"
+    },
+    {
+      "text": "y",
+      "textRu": "н",
+      "grow": 1,
+      "keyCode": "KeyY"
+    },
+    {
+      "text": "u",
+      "textRu": "г",
+      "grow": 1,
+      "keyCode": "KeyU"
+    },
+    {
+      "text": "i",
+      "textRu": "ш",
+      "grow": 1,
+      "keyCode": "KeyI"
+    },
+    {
+      "text": "o",
+      "textRu": "щ",
+      "grow": 1,
+      "keyCode": "KeyO"
+    },
+    {
+      "text": "p",
+      "textRu": "з",
+      "grow": 1,
+      "keyCode": "KeyP"
+    },
+    {
+      "text": "[",
+      "textRu": "x",
+      "grow": 1,
+      "keyCode": "BracketLeft"
+    },
+    {
+      "text": "]",
+      "textRu": "ъ",
+      "grow": 1,
+      "keyCode": "BracketRight"
+    },
+    {
+      "text": "\\",
+      "grow": 1,
+      "keyCode": "Backslash"
+    },
+    {
+      "text": "Del",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "Delete"
+    }
+  ],
+  [
+    {
+      "text": "CapsLock",
+      "grow": 3,
+      "blackButton": true,
+      "keyCode": "CapsLock"
+    },
+    {
+      "text": "a",
+      "textRu": "ф",
+      "grow": 1,
+      "keyCode": "KeyA"
+    },
+    {
+      "text": "s",
+      "textRu": "ы",
+      "grow": 1,
+      "keyCode": "KeyS"
+    },
+    {
+      "text": "d",
+      "textRu": "в",
+      "grow": 1,
+      "keyCode": "KeyD"
+    },
+    {
+      "text": "f",
+      "textRu": "a",
+      "grow": 1,
+      "keyCode": "KeyF"
+    },
+    {
+      "text": "g",
+      "textRu": "п",
+      "grow": 1,
+      "keyCode": "KeyG"
+    },
+    {
+      "text": "h",
+      "textRu": "р",
+      "grow": 1,
+      "keyCode": "KeyH"
+    },
+    {
+      "text": "j",
+      "textRu": "o",
+      "grow": 1,
+      "keyCode": "KeyJ"
+    },
+    {
+      "text": "k",
+      "textRu": "л",
+      "grow": 1,
+      "keyCode": "KeyK"
+    },
+    {
+      "text": "l",
+      "textRu": "д",
+      "grow": 1,
+      "keyCode": "KeyL"
+    },
+    {
+      "text": ";",
+      "textRu": "ж",
+      "grow": 1,
+      "keyCode": "Semicolon"
+    },
+    {
+      "text": "'",
+      "textRu": "э",
+      "grow": 1,
+      "keyCode": "Quote"
+    },
+    {
+      "text": "Enter",
+      "grow": 3,
+      "blackButton": true,
+      "keyCode": "Enter"
+    }
+  ],
+  [
+    {
+      "text": "Shift",
+      "grow": 3,
+      "blackButton": true,
+      "keyCode": "ShiftLeft"
+    },
+    {
+      "text": "z",
+      "textRu": "я",
+      "grow": 1,
+      "keyCode": "KeyZ"
+    },
+    {
+      "text": "x",
+      "textRu": "ч",
+      "grow": 1,
+      "keyCode": "KeyX"
+    },
+    {
+      "text": "c",
+      "textRu": "c",
+      "grow": 1,
+      "keyCode": "KeyC"
+    },
+    {
+      "text": "v",
+      "textRu": "м",
+      "grow": 1,
+      "keyCode": "KeyV"
+    },
+    {
+      "text": "b",
+      "textRu": "и",
+      "grow": 1,
+      "keyCode": "KeyB"
+    },
+    {
+      "text": "n",
+      "textRu": "т",
+      "grow": 1,
+      "keyCode": "KeyN"
+    },
+    {
+      "text": "m",
+      "textRu": "ь",
+      "grow": 1,
+      "keyCode": "KeyM"
+    },
+    {
+      "text": ",",
+      "textRu": "б",
+      "grow": 1,
+      "keyCode": "Comma"
+    },
+    {
+      "text": ".",
+      "textRu": "ю",
+      "grow": 1,
+      "keyCode": "Period"
+    },
+    {
+      "text": "/",
+      "textRu": ".",
+      "grow": 1,
+      "keyCode": "Slash"
+    },
+    {
+      "text": "▲",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "ArrowUp"
+    },
+    {
+      "text": "Shift",
+      "grow": 3,
+      "blackButton": true,
+      "keyCode": "ShiftRight"
+    }
+  ],
+  [
+    {
+      "text": "Ctrl",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "ControlLeft"
+    },
+    {
+      "text": "Win",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "MetaLeft"
+    },
+    {
+      "text": "Alt",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "AltLeft"
+    },
+    {
+      "text": " ",
+      "grow": 13.25,
+      "keyCode": "Space"
+    },
+    {
+      "text": "Alt",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "AltRight"
+    },
+    {
+      "text": "◄",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "ArrowLeft"
+    },
+    {
+      "text": "▼",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "ArrowDown"
+    },
+    {
+      "text": "►",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "ArrowRight"
+    },
+    {
+      "text": "Ctrl",
+      "grow": 1,
+      "blackButton": true,
+      "keyCode": "ControlRight"
+    }
+  ]
+]
